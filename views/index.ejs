@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/Scripts/lib/font-awesome/css/font-awesome.min.css">
-    <link rel='stylesheet' href='/Content/app.css' />
-  </head>
-  <body>
-     <!-- MAIN CONTENT -->
-     <h1>Emerald Amethyst Bricker</h1>
 
-     <div>
-       <img src="/Content/img/front.jpg" alt="">
-       <p>I am an artist.This site will go through the tour of my world.</p>
-     </div>
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/Scripts/lib/font-awesome/css/font-awesome.min.css">
+  <link rel='stylesheet' href='/Content/app.css' />
+</head>
 
-     <div>
-       <img src="/Content/img/life.jpg" alt="">
-       <h2>Life</h2>
-     </div>
+<body>
+  <div class="set3d">
+  <div id="menu">
+    <ul>
+      <li>Home</li>
+      <li>Life</li>
+      <li>Destination</li>
+      <li>Adventure</li>
+    </ul>
+    <div id="trigger"></div>
+  </div>
+  </div>
+  <div id="content">
+    <h1> Emerald Amethyst Bricker</h1>
+  </div>
 
-     <div>
-       <img src="/Content/img/trumpet.jpg" alt="">
-       <h2>Carrer's' Plan</h2>
-     </div>
+  <div>
+    <img src="/Content/img/front.jpg" alt="">
+    <p>I am an artist.This site will go through the tour of my world.</p>
+  </div>
 
-     <div>
-       <img src="/Content/img/roots.jpg" alt="">
-       <h2>Roots</h2>
-     </div>
+  <div>
+    <h2>Life</h2>    
+    <img src="/Content/img/life.jpg" alt="">
+  </div>
 
-     <div>
-       <img src="/Content/img/pumpkin.jpg" alt="">
-       <h2>Adventure</h2>
-     </div>
+  <div>
+    <h2>Carrer's' Plan</h2>
+    <img src="/Content/img/trumpet.jpg" alt="">
+  </div>
 
-    <!-- JAVASCRIPT SECTION -->
-    <script src="/Scripts/lib/jquery/dist/jquery.min.js"></script>
-    <script src="/Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/Scripts/app.js"></script>
-  </body>
+  <div>
+    <h2>Roots</h2>
+    <img src="/Content/img/roots.jpg" alt="">
+  </div>
+
+  <div>
+    <h2>Adventure</h2>
+    <img src="/Content/img/pumpkin.jpg" alt="">
+  </div>
+
+  <!-- JAVASCRIPT SECTION -->
+  <script src="/Scripts/lib/jquery/dist/jquery.min.js"></script>
+  <script src="/Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/Scripts/app.js"></script>
+</body>
+
 </html>
